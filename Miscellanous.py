@@ -1,6 +1,6 @@
 import requests
 
-#http://rahulshettyacademy.com
+
 #'visit-month'
 cookie = {'visit-month':'February'}
 response = requests.get('http://rahulshettyacademy.com',allow_redirects=False,cookies=cookie,timeout=1)

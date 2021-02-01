@@ -53,8 +53,8 @@ while True:
             break
     #Modulo
     elif oper == "4":
-        val1 = float(input(("\nFirst Value ")))
-        val2 = float(input(("\nSecond Value ")))
+        val1 = float(input(("\nFirst Value: ")))
+        val2 = float(input(("\nSecond Value: ")))
 
         print("\nThe Result is: " + str(val1 % val2 ) + "\n")
 
@@ -65,8 +65,8 @@ while True:
             break
     #Raising to a power
     elif oper == "5":
-        val1 = float(input(("\nFirst Value ")))
-        val2 = float(input(("\nSecond Value ")))
+        val1 = float(input(("\nFirst Value: ")))
+        val2 = float(input(("\nSecond Value: ")))
 
         print("\nThe Result is: " + str(math.pow(val1, val2)) + "\n")
 

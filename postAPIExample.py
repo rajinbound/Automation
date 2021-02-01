@@ -6,8 +6,9 @@ from utilities.resources import *
 
 url = getConfig()['API']['endpoint'] + ApiResources.addBook
 #print(url)
+print("Construction of the URL looks like this :",url)
 headers = {"Content-Type": "application/json"}
-addBook_response = requests.post(url,json=addBookPayload("terimaa"),headers=headers, )
+addBook_response = requests.post(url,json=addBookPayload("temp1"),headers=headers, )
 #query = 'select * from Books'
 #addBook_response = requests.post(url,json=buildPayLoadFromDB(query),headers=headers, )
 print(addBook_response.json())

@@ -19,7 +19,7 @@ connect_config = {
 
 
 def getPassword():
-    return "Compaq90@"
+    return "not going to expose my password"
 
 
 def getConnection():
